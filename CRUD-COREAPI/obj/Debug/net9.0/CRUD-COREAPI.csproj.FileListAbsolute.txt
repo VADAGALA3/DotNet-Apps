@@ -1,0 +1,8 @@
+C:\Veeresh\Practice\.Net\.NetCoreApi\RepositryPattern-CoreApi\COREAPI\CRUD-COREAPI\obj\Debug\net9.0\CRUD-COREAPI.csproj.AssemblyReference.cache
+C:\Veeresh\Practice\.Net\.NetCoreApi\RepositryPattern-CoreApi\COREAPI\CRUD-COREAPI\obj\Debug\net9.0\CRUD-COREAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Veeresh\Practice\.Net\.NetCoreApi\RepositryPattern-CoreApi\COREAPI\CRUD-COREAPI\obj\Debug\net9.0\CRUD-COREAPI.AssemblyInfoInputs.cache
+C:\Veeresh\Practice\.Net\.NetCoreApi\RepositryPattern-CoreApi\COREAPI\CRUD-COREAPI\obj\Debug\net9.0\CRUD-COREAPI.AssemblyInfo.cs
+C:\Veeresh\Practice\.Net\.NetCoreApi\RepositryPattern-CoreApi\COREAPI\CRUD-COREAPI\obj\Debug\net9.0\CRUD-COREAPI.csproj.CoreCompileInputs.cache
+C:\Veeresh\Practice\.Net\.NetCoreApi\RepositryPattern-CoreApi\COREAPI\CRUD-COREAPI\obj\Debug\net9.0\CRUD-COREAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Veeresh\Practice\.Net\.NetCoreApi\RepositryPattern-CoreApi\COREAPI\CRUD-COREAPI\obj\Debug\net9.0\CRUD-COREAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Veeresh\Practice\.Net\.NetCoreApi\RepositryPattern-CoreApi\COREAPI\CRUD-COREAPI\obj\Debug\net9.0\CRUD-COREAPI.sourcelink.json
