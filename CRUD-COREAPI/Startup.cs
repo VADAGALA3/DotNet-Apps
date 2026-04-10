@@ -39,14 +39,14 @@ namespace CRUD_COREAPI
             services.AddSwaggerGen(options => {
                 options.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "WEB API",
-                    Version = "v1"
+                    //Title = "WEB API",
+                    //Version = "v1"
                 });
             });
             services.AddControllersWithViews().AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore).AddNewtonsoftJson(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver());
             services.AddControllers();
             services.AddDbContext<DataContext>(o => o.UseSqlServer(Configuration.GetConnectionString("Sqlcon")));
-            //services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+            services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
             services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,7 +59,6 @@ namespace CRUD_COREAPI
             app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseHttpsRedirection();
             app.UseRouting();
-            //app.UseAuthorization();
             app.UseEndpoints(endpoints => {
                 endpoints.MapControllers();
             });
@@ -69,11 +68,7 @@ namespace CRUD_COREAPI
                 c.DocumentTitle = "WEB API";
                 c.DocExpansion(DocExpansion.List);
             });
-            //app.UseStaticFiles(new StaticFileOptions
-            //{
-            //    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Photos")),
-            //    RequestPath = "/Photos"
-            //});
+          
         }
     }
 }

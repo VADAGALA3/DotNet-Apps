@@ -15,6 +15,11 @@ namespace CRUD_COREAPI.Database
             get;
             set;
         }
+        public DbSet<UserDetails> user
+        {
+            get;
+            set;
+        }
 
     }
 }
